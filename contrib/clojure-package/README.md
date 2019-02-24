@@ -88,7 +88,7 @@ Depending on your operating system, you will need a couple of packages that are 
 As of writing this, OpenCV 3.4 is not available in the default repositories. Therefore, a third-party repository is needed.
 
 ```bash
-sudo add-apt-repository ppa:timsc/opencv
+sudo add-apt-repository ppa:timsc/opencv-3.4
 sudo apt-get update
 sudo apt install libopencv-imgcodecs3.4 libopenblas-base libatlas3-base libcurl3
 ```
